@@ -1,0 +1,7 @@
+* Variables: son como una cajita, el lugar que reservamos para guardar informacion que vamos a ir utlizando 
+
+	* Strings: son palabras, cadena de texto, siempre van entre comillas
+	* Funciones: las funciones realizan, ejecutan algo, nos permiten cambiar, calcular, hacer algo con las variables.
+     (argumentos: van entre parentesis seguido del nombre de la funcion, `return`: es un jumps que me permite dentro de una funcion que me devuelva algo.)
+	* Declaraciones `if`: son declaraciones condicionales, si se cumple determinada condicion se ejecuta tal funcion o no. 
+	* Valores booleanos (`true`, `false`) son expressiones logicas, nos permiten saber si algo es verdadero o falso, controlar el flujo de ejecucion de funciones,
