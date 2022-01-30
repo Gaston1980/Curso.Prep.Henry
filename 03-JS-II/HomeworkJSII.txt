@@ -1,0 +1,19 @@
+1. En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos como 
+si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier 
+agujero en tu comprensión.
+
+* `for`: es un Loops statement , que sirve para ejecutar una funcion o
+sentencia determinadas cantidades de veces mientras se cumpla una condicion.
+for( declaramos una variable; una expresion condicional; incrementamos la variable) {
+    aca escribo mi codigo
+}
+for( var a = 0; a<100; a++) {
+    console.log(a)
+}
+
+* `&&`: es un operador logico,  se define como AND/Y 
+`||`: es un operador logico, se define como OR/O
+ `!`: es un operador logico, se define como NOT/NO: !==; !false; (!(1===1))
+ 
