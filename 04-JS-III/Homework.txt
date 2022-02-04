@@ -1,0 +1,18 @@
+Arrays:  son contenedores para almacenar colecciones de datos, estos datos pueden ser de diferrentes tipos (strings, numericos, booleanos)
+Se debe declarar el nombr de la variable que va contener este array y su contendio entre []
+ejemplo: const vecinos = ["Maria", "Pedro", "Juan", "Fer"]  los elementos siempre separados entre comas
+Los arrays tiene un orden de elementos establecidos, siendo el primer elemento , el elemento 0, segundo elelemento sera el 1
+y asi sucesivamente. 
+nombredelarray.length ( me devuelve la cantidad de elementos que componene este array)
+nombredelarray.push() agrego nuevo elemento al final del array
+nombredelarray.pop    elimino el ultimo elemento del array
+nombredelarray.unshift()  agrego elemento nuevo al array pero al principio
+nombredelarray.shift    elimino el primer elemento del array
+nombredelarray[2] = ¨Pedro"     para asignar a elementos su posicion dentro del array.
+ 
+
+
+
+
+
+
