@@ -1,0 +1,29 @@
+Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos: 
+     - es un lugar donde guardamos mucha informacion sobre una sola cosa
+     - la informacion se guarda en pares Key:Value Propiedades/Clave:Valor y van separados por coma
+     - Los valores pueden ser strings, numeros, boleanos, undefined, null, arrays, otro objeto
+     - Syntaxis: var nombredelobjeto = { nombredelapropiedad: valorquerecibe, nombredelapropiedad: valorquerecibe }
+	* Propiedades:
+    - Tambien llamados Key/Clave, es el identificador de lo que vamos a poner adentro, o sea, del valor que va recibir.
+    - Asi como los arrays utilizan el indice para identificar que hay ahi, en los objetos no existe un indice, se utilizan
+    las propiedades para identificar
+	* Métodos:
+    - Los metodos son las funciones que se encuentran dentro de los objetos
+    - Ejemplos: .length; .pop; .push 
+    _ Los metodos reciben un nombre que seria la propiedad/Key para identificarlos dentro del objeto
+    - el valor dentro de los metodos siempre empiezan con function() { lo que vaejecutar la funcion }
+    - los metodos se invocan: nombredelobjeto.propiedaddelmetodo()
+	* Bucle `for…in`:
+    - Se utiliza para iterar en los objetos
+    - Syntaxis: for( var clave in nombredelobjeto) { lo que quiero ejecutar }
+    - la variable clave que se declara remite a la propiedad/propiedades del objeto
+	* Notación de puntos vs notación de corchetes:
+    - La notacion de puntos es la que mas se va utlizar para indicar objeto/propiedad : user.name
+    - La notacion de brackets se va utilizar cuando estemos usando una variable: user[propiedad]
+    - No esta mal si queremos indicar objeto/propiedad con brackets: user["name"] eso si, el nombre de la propiedad va
+    entre comillas si usamos brackets y tiene que ser un string o numero.
+
