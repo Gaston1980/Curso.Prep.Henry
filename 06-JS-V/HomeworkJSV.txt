@@ -1,0 +1,26 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se 
+lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier 
+agujero en tu comprensión.
+
+* `prototype`: cada clase/constructor tiene la propiedad llamada prototype, la cual me permite definir un metodo(funcion) 
+que va ser compartida con todas las instancias/objetos de clase creadas 
+Syntaxis:
+nombredelaclase.prototype.nombredelmetodo = function() {
+    lo que quiero que haga
+}
+
+* _Constructors_ (de Clases): un constructor de clases me permite crear una plantilla/estructura con determinadas 
+propiedades que van a ser compartidas con todas las instancias de la clase que voy a ir creando, de esta manera no
+voy a tener que escribir codigo una y otra vez de lo mismo. Por convencion se establece que el nombre de las clases
+ empiezan con mayusculas.
+ Syntaxis: 
+ function Usuario(nombre,apellido,edad) {
+     this.nombre,
+     this.apellido,
+     this.edad
+ }
+
+
+
