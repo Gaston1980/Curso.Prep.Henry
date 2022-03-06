@@ -1,8 +1,22 @@
 
-           h1 {
+           .divClass>h1 {
                color: midnightblue;
+               display: flex;
+                justify-content: center;
+                align-content: center;
            }
-           img { 
+           .divClass>h3 {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+           } 
+           .divClass>h4 {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+           } 
+        
+           #thirdDiv>ul>li>img { 
                width: 400px;
            }
            #thirdDiv {
@@ -10,10 +24,22 @@
                width:500px;
                background-color: oldlace;
                padding: 50px;
-               border: skyblue 10px solid;
+               border: skyblue 40px solid;
            }
            #spanId {
                font-size: 18px;
                margin: 50px;
+               display: flex;
+                justify-content: center;
+                align-content: center;
            }
+           body {
+                background-image: url(https://www.dreamstime.com/sunset-florida-stock-image-image-free-16489931);
+           }
+           html {
+    
+            display: flex;
+            justify-content: center;
+            align-content: center;
+           } 
            
