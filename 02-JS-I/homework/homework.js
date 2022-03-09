@@ -26,7 +26,6 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  var str = "Henry"
   return str
 }
 
@@ -81,7 +80,7 @@ function mayorQueCincuenta(num) {
 
 
 function obtenerResto(x, y) {
-  return (x % y)
+  return x % y
 }
 
 
@@ -94,7 +93,7 @@ function esPar(num) {
 
 
 function esImpar(num) {
-if (num % 2 != 0) {
+if (num % 2 !== 0) {
   return true
 }
 return false
